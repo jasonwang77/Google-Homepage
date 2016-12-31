@@ -5,10 +5,49 @@ body,html{
 	font-size: 85%; 
 }
 
+div.navbar{
+	width: 100%; 
+	height: 10%; 
+	margin-top: .8%; 
+}
+
+ul{
+	list-style-type: none; 
+	float: right; 
+	margin: 0;
+	margin-right: 2%;  
+	padding: 0; 
+}
+
+li{
+	display: inline-block;
+	min-width: 55px; 
+	min-height: 20px; 
+}
+
+.squarelink{
+	background-image:url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+	background-position: 28% 90%; 
+	min-height: 20px; 
+	min-width: 30px; 
+}
+
+.signin{ 
+	min-width: 70px; 
+	height: 100%; 
+	padding: 7px; 
+	background-color: #4387fd; 
+	color: white; 
+	font-weight: bold; 
+	font-size: 13px; 
+}
+
 div.logo{
+	height: 10%; 
 	margin: auto; 
-	padding-bottom: 1%;
 	padding-top: 10%; 
+	min-height: 10%;
+	padding-bottom: 1.5%;  
 }
 
 img{
@@ -19,7 +58,7 @@ img{
 
 div.form{
 	margin: auto;
-	height: 70%; 
+	height: 50%;
 }
 
 input{
@@ -56,14 +95,6 @@ input.lucky_button{
 	margin-left: 1%; 
 }
 
-input.google_search_button:hover{
-	
-}
-
-input.lucky_button:hover{
-
-}
-
 a{
 	text-decoration: none; 
 }
@@ -74,5 +105,30 @@ p{
 
 #p2{
 	margin-top: 2%; 
+}
+
+div.footer{
+	width: 100%; 
+	position: fixed; 
+	top: 95%; 
+	display: inline; 
+	height: 150px; 
+	background-color: #eee; 
+}
+
+div.rightfooter{
+	vertical-align: top; 
+	display: inline-block; 
+	width: 50%; 
+	height: 100%;
+	float: right;  
+}
+
+div.leftfooter{
+	vertical-align: top; 
+	display: inline-block; 
+	width: 50%;
+	height: 100%; 
+	float: left; 
 }
 
