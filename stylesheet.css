@@ -1,8 +1,78 @@
-body{
+body,html{
 	width: 100%;
-	margin: 0 auto; 
+	height: 100%; 
+	font-family: Arial, Verdana, sans-serif; 
+	font-size: 85%; 
 }
 
-.logo{
+div.logo{
+	margin: auto; 
+	padding-bottom: 1%;
+	padding-top: 10%; 
+}
+
+img{
+	display: block; 
+	margin: auto;
+	width: 15%; 
+}
+
+div.form{
+	margin: auto;
+	height: 70%; 
+}
+
+input{
+	display: block; 
+	margin:auto; 
+	width: 30%;
+	padding: .7%;
+	border: none; 
+	border-radius: 0; 
+	box-shadow: 0 1px 2px 1px #cccccc;
+}
+
+input:hover, input:focus{
+	box-shadow: 0 3px 5px 2px #cccccc;
+}
+
+div.search_buttons{
+	margin: auto; 
+	width: 50%; 
+	margin-bottom: 1.5%; 
+}
+
+
+input.google_search_button{
+	display: inline; 
+	width: 14%; 
+	margin-left: 35%; 
+	margin-top: 5%; 
+}
+
+input.lucky_button{
+	display: inline; 
+	width: 15%; 
+	margin-left: 1%; 
+}
+
+input.google_search_button:hover{
 	
 }
+
+input.lucky_button:hover{
+
+}
+
+a{
+	text-decoration: none; 
+}
+
+p{
+	text-align: center; 
+}
+
+#p2{
+	margin-top: 2%; 
+}
+
