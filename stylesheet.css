@@ -17,12 +17,14 @@ ul{
 	margin: 0;
 	margin-right: 2%;  
 	padding: 0; 
+	height: 100%; 
 }
 
 li{
 	display: inline-block;
 	min-width: 55px; 
 	min-height: 20px; 
+	
 }
 
 .squarelink{
@@ -47,7 +49,7 @@ div.logo{
 	margin: auto; 
 	padding-top: 10%; 
 	min-height: 10%;
-	padding-bottom: 1.5%;  
+	padding-bottom: 2%;  
 }
 
 img{
@@ -132,3 +134,18 @@ div.leftfooter{
 	float: left; 
 }
 
+.leftlinks{
+	float: left; 
+	height: 100%; 
+	padding-left: 10px; 
+}
+
+.leftlinks li{
+	padding-top: 5%; 
+	min-width: 80px; 
+}
+
+.rightlinks li{
+	padding-top: 5%; 
+	min-width: 80px; 
+}
